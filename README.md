@@ -5,7 +5,7 @@ This is a working version of shops plugin for Spigot Minecraft V1.16.4
 
 Spigot Link
 -----------
-https://www.spigotmc.org/resources/myfactions.88061/
+https://www.spigotmc.org/resources/myshop.89174/
 
 Donate
 -----------
