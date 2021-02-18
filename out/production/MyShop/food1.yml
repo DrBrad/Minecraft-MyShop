@@ -1,0 +1,32 @@
+name: Food & Farming
+link: food2
+size: 54
+items:
+  0:
+    material: COOKED_PORKCHOP
+    type: 1
+    buy: 13
+    sell: 4.29
+    amount: 1
+
+
+  46:
+    name: Page 1
+    material: PAPER
+    type: 0
+    amount: 1
+    link: food
+
+  47:
+    name: Page 2
+    material: PAPER
+    type: 0
+    amount: 2
+    link: food2
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

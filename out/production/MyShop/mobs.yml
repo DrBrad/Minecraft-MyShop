@@ -1,0 +1,86 @@
+name: Mob Drops
+link: mobs
+size: 45
+items:
+  10:
+    material: GUNPOWDER
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  11:
+    material: ARROW
+    type: 1
+    buy: 3
+    sell: 1
+    amount: 1
+  12:
+    material: FEATHER
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  13:
+    material: BLAZE_ROD
+    type: 1
+    buy: 50
+    sell: 16.5
+    amount: 1
+  14:
+    material: ENDER_PEARL
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  15:
+    material: ROTTEN_FLESH
+    type: 1
+    buy: 1
+    sell: 0.33
+    amount: 1
+  16:
+    material: LEATHER
+    type: 1
+    buy: 5
+    sell: 1.31
+    amount: 1
+
+
+  20:
+    material: SLIME_BALL
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  21:
+    material: LILY_PAD
+    type: 1
+    buy: 6
+    sell: 2
+    amount: 1
+  22:
+    material: STRING
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  23:
+    material: BONE
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  24:
+    material: NAUTILUS_SHELL
+    type: 1
+    buy: 200
+    sell: 15
+    amount: 1
+
+
+  44:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

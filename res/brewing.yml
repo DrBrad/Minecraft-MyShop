@@ -1,0 +1,75 @@
+name: Brewing Shop
+link: brewing
+size: 45
+items:
+  10:
+    material: SPIDER_EYE
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  11:
+    material: GHAST_TEAR
+    type: 1
+    buy: 200
+    sell: 66
+    amount: 1
+  12:
+    material: POTION
+    type: 1
+    buy: 3
+    sell: 1
+    potion-type: WATER
+    amount: 1
+  13:
+    material: GOLDEN_CARROT
+    type: 1
+    buy: 45
+    sell: 15
+    amount: 1
+  14:
+    material: GLOWSTONE_DUST
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  15:
+    material: SUGAR
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  16:
+    material: SLIME_BALL
+    type: 1
+    buy: 25
+    sell: 8.25
+    amount: 1
+
+
+  21:
+    material: NETHER_WART
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  22:
+    material: GLISTERING_MELON_SLICE
+    type: 1
+    buy: 40
+    sell: 13.2
+    amount: 1
+  23:
+    material: MAGMA_CREAM
+    type: 1
+    buy: 50
+    sell: 16.5
+    amount: 1
+
+
+  44:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

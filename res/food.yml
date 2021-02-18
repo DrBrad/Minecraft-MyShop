@@ -1,0 +1,248 @@
+name: Food & Farming
+link: food
+size: 54
+items:
+  0:
+    material: MELON_SEEDS
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  1:
+    material: PUMPKIN_SEEDS
+    type: 1
+    buy: 3
+    sell: 1
+    amount: 1
+  2:
+    material: WHEAT_SEEDS
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  3:
+    material: BEETROOT_SEEDS
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  4:
+    material: BROWN_MUSHROOM
+    type: 1
+    buy: 6
+    sell: 2
+    amount: 1
+  5:
+    material: RED_MUSHROOM
+    type: 1
+    buy: 6
+    sell: 2
+    amount: 1
+  6:
+    material: OAK_SAPLING
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  7:
+    material: SPRUCE_SAPLING
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  8:
+    material: BIRCH_SAPLING
+    type: 1
+    buy: 20
+    sell: 6.66
+    amount: 1
+
+
+  9:
+    material: JUNGLE_SAPLING
+    type: 1
+    buy: 100
+    sell: 5
+    amount: 1
+  10:
+    material: ACACIA_SAPLING
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  11:
+    material: DARK_OAK_SAPLING
+    type: 1
+    buy: 50
+    sell: 5
+    amount: 1
+  12:
+    material: MELON_SLICE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  13:
+    material: PUMPKIN
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  14:
+    material: WHEAT
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  15:
+    material: BEETROOT_SOUP
+    type: 1
+    buy: 12
+    sell: 4
+    amount: 1
+  16:
+    material: MUSHROOM_STEW
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  17:
+    material: SUGAR_CANE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+
+
+  18:
+    material: CACTUS
+    type: 1
+    buy: 3
+    sell: 1
+    amount: 1
+  19:
+    material: APPLE
+    type: 1
+    buy: 60
+    sell: 20
+    amount: 1
+  20:
+    material: GOLDEN_APPLE
+    type: 1
+    buy: 400
+    sell: 132
+    amount: 1
+  21:
+    material: ENCHANTED_GOLDEN_APPLE
+    type: 1
+    buy: 2940
+    sell: 970.2
+    amount: 1
+  22:
+    material: CARROT
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  23:
+    material: BREAD
+    type: 1
+    buy: 5
+    sell: 1.65
+    amount: 1
+  24:
+    material: COOKIE
+    type: 1
+    buy: 1
+    sell: 0.33
+    amount: 1
+  25:
+    material: CAKE
+    type: 1
+    buy: 30
+    sell: 10
+    amount: 1
+  26:
+    material: PUMPKIN_PIE
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+
+
+  27:
+    material: COD
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  28:
+    material: COOKED_COD
+    type: 1
+    buy: 16
+    sell: 5.33
+    amount: 1
+  29:
+    material: SALMON
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  30:
+    material: COOKED_SALMON
+    type: 1
+    buy: 16
+    sell: 5.33
+    amount: 1
+  31:
+    material: CHICKEN
+    type: 1
+    buy: 8
+    sell: 2.33
+    amount: 1
+  32:
+    material: COOKED_CHICKEN
+    type: 1
+    buy: 9
+    sell: 3
+    amount: 1
+  33:
+    material: BEEF
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  34:
+    material: COOKED_BEEF
+    type: 1
+    buy: 11
+    sell: 3.63
+    amount: 1
+  35:
+    material: PORKCHOP
+    type: 1
+    buy: 12
+    sell: 4
+    amount: 1
+
+
+  46:
+    name: Page 1
+    material: PAPER
+    type: 0
+    amount: 1
+    link: food
+
+  47:
+    name: Page 2
+    material: PAPER
+    type: 0
+    amount: 2
+    link: food2
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

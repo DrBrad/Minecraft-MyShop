@@ -1,0 +1,112 @@
+name: Dye Shop
+link: dye
+size: 54
+items:
+  10:
+    material: WHITE_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  11:
+    material: LIGHT_GRAY_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  12:
+    material: GRAY_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  13:
+    material: BLACK_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  14:
+    material: RED_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  15:
+    material: ORANGE_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  16:
+    material: YELLOW_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+
+
+  19:
+    material: LIME_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  20:
+    material: GREEN_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  21:
+    material: LIGHT_BLUE_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  22:
+    material: CYAN_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  23:
+    material: BLUE_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  24:
+    material: PURPLE_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  25:
+    material: MAGENTA_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+
+
+  30:
+    material: PINK_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  32:
+    material: BROWN_DYE
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

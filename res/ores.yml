@@ -1,0 +1,112 @@
+name: Ores
+link: ores
+size: 54
+items:
+  10:
+    material: COAL
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  11:
+    material: IRON_INGOT
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  12:
+    material: GOLD_INGOT
+    type: 1
+    buy: 40
+    sell: 13.33
+    amount: 1
+  13:
+    material: REDSTONE
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  14:
+    material: LAPIS_LAZULI
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  15:
+    material: DIAMOND
+    type: 1
+    buy: 160
+    sell: 52.8
+    amount: 1
+  16:
+    material: EMERALD
+    type: 1
+    buy: 100
+    sell: 33.33
+    amount: 1
+
+
+  19:
+    material: COAL_BLOCK
+    type: 1
+    buy: 72
+    sell: 21.6
+    amount: 1
+  20:
+    material: IRON_BLOCK
+    type: 1
+    buy: 135
+    sell: 40.5
+    amount: 1
+  21:
+    material: GOLD_BLOCK
+    type: 1
+    buy: 360
+    sell: 118.8
+    amount: 1
+  22:
+    material: REDSTONE_BLOCK
+    type: 1
+    buy: 36
+    sell: 11.8
+    amount: 1
+  23:
+    material: LAPIS_BLOCK
+    type: 1
+    buy: 70
+    sell: 23.1
+    amount: 1
+  24:
+    material: DIAMOND_BLOCK
+    type: 1
+    buy: 1450
+    sell: 475
+    amount: 1
+  25:
+    material: EMERALD_BLOCK
+    type: 1
+    buy: 900
+    sell: 300
+    amount: 1
+
+
+  30:
+    material: NETHERITE_SCRAP
+    type: 1
+    buy: 500
+    sell: 165
+    amount: 1
+  32:
+    material: NETHERITE_INGOT
+    type: 1
+    buy: 2160
+    sell: 712.8
+    amount: 1
+
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

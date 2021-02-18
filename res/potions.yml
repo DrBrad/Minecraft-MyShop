@@ -1,0 +1,140 @@
+name: Potion Shop
+link: potions
+size: 45
+items:
+  10:
+    material: POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: REGEN
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  11:
+    material: POTION
+    type: 1
+    buy: 70
+    sell: 23.1
+    potion-type: SPEED
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  12:
+    material: POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: WATER_BREATHING
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  13:
+    material: POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: STRENGTH
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  14:
+    material: POTION
+    type: 1
+    buy: 70
+    sell: 23.1
+    potion-type: INSTANT_HEAL
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+  15:
+    material: POTION
+    type: 1
+    buy: 60
+    sell: 20
+    potion-type: SLOW_FALLING
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  16:
+    material: POTION
+    type: 1
+    buy: 240
+    sell: 80
+    potion-type: HASTE
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+
+
+  19:
+    material: SPLASH_POTION
+    type: 1
+    buy: 90
+    sell: 30
+    potion-type: REGEN
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+  20:
+    material: SPLASH_POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: SPEED
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+  21:
+    material: SPLASH_POTION
+    type: 1
+    buy: 90
+    sell: 30
+    potion-type: WATER_BREATHING
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  22:
+    material: SPLASH_POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: STRENGTH
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+  23:
+    material: SPLASH_POTION
+    type: 1
+    buy: 80
+    sell: 26.4
+    potion-type: INSTANT_HEAL
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+  24:
+    material: SPLASH_POTION
+    type: 1
+    buy: 70
+    sell: 23.1
+    potion-type: SLOW_FALLING
+    potion-extended: true
+    potion-upgraded: false
+    amount: 1
+  25:
+    material: SPLASH_POTION
+    type: 1
+    buy: 260
+    sell: 85.8
+    potion-type: HASTE
+    potion-extended: false
+    potion-upgraded: true
+    amount: 1
+
+
+  44:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

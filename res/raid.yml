@@ -1,0 +1,130 @@
+name: Raid Materials
+link: raid
+size: 54
+items:
+  10:
+    material: REDSTONE_TORCH
+    type: 1
+    buy: 6
+    sell: 2
+    amount: 1
+  11:
+    material: COMPARATOR
+    type: 1
+    buy: 30
+    sell: 10
+    amount: 1
+  12:
+    material: REPEATER
+    type: 1
+    buy: 25
+    sell: 8.25
+    amount: 1
+  13:
+    material: OAK_BUTTON
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  14:
+    material: STONE_BUTTON
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  15:
+    material: LEVER
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  16:
+    material: TNT
+    type: 1
+    buy: 55
+    sell: 18.15
+    amount: 1
+
+
+  19:
+    material: STICKY_PISTON
+    type: 1
+    buy: 55
+    sell: 18.15
+    amount: 1
+  20:
+    material: PISTON
+    type: 1
+    buy: 30
+    sell: 10
+    amount: 1
+  21:
+    material: OAK_TRAPDOOR
+    type: 1
+    buy: 5
+    sell: 1.65
+    amount: 1
+  22:
+    material: SPONGE
+    type: 1
+    buy: 100
+    sell: 33.33
+    amount: 1
+  23:
+    material: LADDER
+    type: 1
+    buy: 2
+    sell: 0.66
+    amount: 1
+  24:
+    material: WATER_BUCKET
+    type: 1
+    buy: 46
+    sell: 14.85
+    amount: 1
+  25:
+    material: LAVA_BUCKET
+    type: 1
+    buy: 100
+    sell: 33.33
+    amount: 1
+
+
+  29:
+    material: COBWEB
+    type: 1
+    buy: 8
+    sell: 2
+    amount: 1
+  30:
+    material: STONE_SLAB
+    type: 1
+    buy: 1
+    sell: 0.33
+    amount: 1
+  31:
+    material: OBSERVER
+    type: 1
+    buy: 30
+    sell: 10
+    amount: 1
+  32:
+    material: FLINT_AND_STEEL
+    type: 1
+    buy: 20
+    sell: 6.6
+    amount: 1
+  33:
+    material: FISHING_ROD
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

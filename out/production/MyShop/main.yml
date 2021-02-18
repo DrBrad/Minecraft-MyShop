@@ -1,0 +1,65 @@
+name: Shop
+link: main
+size: 36
+items:
+  10:
+    name: Building Blocks
+    material: BRICKS
+    type: 0
+    amount: 1
+    link: building
+  11:
+    name: Food & Farming
+    material: APPLE
+    type: 0
+    amount: 1
+    link: food
+  12:
+    name: Ores
+    material: DIAMOND
+    type: 0
+    amount: 1
+    link: ores
+  13:
+    name: Raid Materials
+    material: TNT
+    type: 0
+    amount: 1
+    link: raid
+  14:
+    name: Potion Shop
+    material: POTION
+    type: 0
+    potion-type: SPEED
+    amount: 1
+    link: potions
+  15:
+    name: Spawners
+    material: SPAWNER
+    type: 0
+    amount: 1
+    link: spawners
+  16:
+    name: Mob Drops
+    material: ROTTEN_FLESH
+    type: 0
+    amount: 1
+    link: mobs
+  21:
+    name: Brewing Shop
+    material: BREWING_STAND
+    type: 0
+    amount: 1
+    link: brewing
+  22:
+    name: Dye Shop
+    material: RED_DYE
+    type: 0
+    amount: 1
+    link: dye
+  23:
+    name: Misc Shop
+    material: CRAFTING_TABLE
+    type: 0
+    amount: 1
+    link: misc

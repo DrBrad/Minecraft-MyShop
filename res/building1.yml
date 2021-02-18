@@ -1,0 +1,180 @@
+name: Building Blocks
+link: building2
+size: 54
+items:
+  0:
+    material: QUARTZ_BLOCK
+    type: 1
+    buy: 40
+    sell: 13.33
+    amount: 1
+  1:
+    material: QUARTZ_BRICKS
+    type: 1
+    buy: 40
+    sell: 13.33
+    amount: 1
+  2:
+    material: QUARTZ_PILLAR
+    type: 1
+    buy: 40
+    sell: 13.33
+    amount: 1
+  3:
+    material: CHISELED_QUARTZ_BLOCK
+    type: 1
+    buy: 40
+    sell: 13.33
+    amount: 1
+  4:
+    material: SANDSTONE
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+  5:
+    material: CUT_SANDSTONE
+    type: 1
+    buy: 7.5
+    sell: 2.4
+    amount: 1
+  6:
+    material: CHISELED_SANDSTONE
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  7:
+    material: END_STONE
+    type: 1
+    buy: 20
+    sell: 6.6
+    amount: 1
+  8:
+    material: END_STONE_BRICKS
+    type: 1
+    buy: 20
+    sell: 6.6
+    amount: 1
+
+
+  9:
+    material: NETHER_BRICKS
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  10:
+    material: CRACKED_NETHER_BRICKS
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  11:
+    material: CHISELED_NETHER_BRICKS
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  12:
+    material: PURPUR_BLOCK
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  13:
+    material: PURPUR_PILLAR
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  14:
+    material: PURPUR_BLOCK
+    type: 1
+    buy: 10
+    sell: 3.33
+    amount: 1
+  15:
+    material: OBSIDIAN
+    type: 1
+    buy: 30
+    sell: 10
+    amount: 1
+  16:
+    material: CRYING_OBSIDIAN
+    type: 1
+    buy: 50
+    sell: 16.5
+    amount: 1
+  17:
+    material: SNOW_BLOCK
+    type: 1
+    buy: 4
+    sell: 1.33
+    amount: 1
+
+
+  18:
+    material: ICE
+    type: 1
+    buy: 3
+    sell: 0.33
+    amount: 1
+  19:
+    material: PACKED_ICE
+    type: 1
+    buy: 8
+    sell: 2.64
+    amount: 1
+  20:
+    material: CLAY
+    type: 1
+    buy: 12
+    sell: 4
+    amount: 1
+  21:
+    material: GLOWSTONE
+    type: 1
+    buy: 15
+    sell: 5
+    amount: 1
+  22:
+    material: GLASS
+    type: 1
+    buy: 3
+    sell: 1
+    amount: 1
+  23:
+    material: WHITE_WOOL
+    type: 1
+    buy: 3
+    sell: 1
+    amount: 1
+  24:
+    material: MAGMA_BLOCK
+    type: 1
+    buy: 5
+    sell: 1.26
+    amount: 1
+
+
+  46:
+    name: Page 1
+    material: PAPER
+    type: 0
+    amount: 1
+    link: building
+
+  47:
+    name: Page 2
+    material: PAPER
+    type: 0
+    amount: 2
+    link: building2
+
+  53:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main

@@ -1,0 +1,39 @@
+name: MyShop
+version: 1.0
+author: DrBrad
+main: unet.Shop.Main
+description: Im the best their is plain and simple, I mean I wake up and piss excellance
+api-version: 1.16
+commands:
+  shop:
+    description: View the shop
+  money:
+    description: Display your wealth
+  setmoney:
+    description: Set players wealth
+  pay:
+    description: Pay a player money
+  auction:
+    description: View the auction
+  reclaim:
+    description: Reclaim items from auction
+
+permissions:
+  shop:
+    default: true
+    description: View the shop
+  money:
+    default: true
+    description: Display your wealth
+  setmoney:
+    default: false
+    description: Set players wealth
+  pay:
+    default: true
+    description: Pay a player money
+  auction:
+    default: true
+    description: View the auction
+  reclaim:
+    default: true
+    description: Reclaim items from auction

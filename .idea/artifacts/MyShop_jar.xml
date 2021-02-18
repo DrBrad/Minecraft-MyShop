@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyShop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyShop_jar</output-path>
+    <root id="archive" name="MyShop.jar">
+      <element id="module-output" name="MyShop" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/mc-spigot/spigot.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/libs/json-20180813.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

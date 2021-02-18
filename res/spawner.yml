@@ -1,0 +1,74 @@
+name: Spawners
+link: spawners
+size: 45
+items:
+  10:
+    material: ZOMBIE_SPAWN_EGG
+    type: 1
+    buy: 160
+    sell: 52.8
+    amount: 1
+  11:
+    material: SKELETON_SPAWN_EGG
+    type: 1
+    buy: 200
+    sell: 66
+    amount: 1
+  12:
+    material: CAVE_SPIDER_SPAWN_EGG
+    type: 1
+    buy: 160
+    sell: 52.8
+    amount: 1
+  13:
+    material: MAGMA_CUBE_SPAWN_EGG
+    type: 1
+    buy: 200
+    sell: 66
+    amount: 1
+  14:
+    material: BLAZE_SPAWN_EGG
+    type: 1
+    buy: 250
+    sell: 82.5
+    amount: 1
+  15:
+    material: SILVERFISH_SPAWN_EGG
+    type: 1
+    buy: 160
+    sell: 52.8
+    amount: 1
+  16:
+    material: PIG_SPAWN_EGG
+    type: 1
+    buy: 100
+    sell: 33.33
+    amount: 1
+
+
+  21:
+    material: SPIDER_SPAWN_EGG
+    type: 1
+    buy: 200
+    sell: 66
+    amount: 1
+  22:
+    material: SPAWNER
+    type: 1
+    buy: 18280
+    sell: 6032.4
+    amount: 1
+  23:
+    material: CREEPER_SPAWN_EGG
+    type: 1
+    buy: 500
+    sell: 165
+    amount: 1
+
+
+  44:
+    name: Back
+    material: BARRIER
+    type: 0
+    amount: 1
+    link: main
