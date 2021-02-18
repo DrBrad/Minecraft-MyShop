@@ -136,13 +136,30 @@ public class MyAuction {
         if(slot < 36){
             int slotPage = slot+(myInventory.getPage()*36);
             if(items.length() > slotPage){
-                double money = getPlayersMoney(myInventory.getPlayer().getUniqueId());
-                double cost = items.getJSONObject(slotPage).getDouble("price");
+                ItemStack item = JsonItemStack.fromJSON(items.getJSONObject(slotPage).getJSONObject("item"));
 
-                if(money >= cost){
-                    ItemStack item = JsonItemStack.fromJSON(items.getJSONObject(slotPage).getJSONObject("item"));
+                int space = 0;
+                for(int i = 0; i <= 35; i++){
+                    ItemStack content = myInventory.getPlayer().getInventory().getItem(i);
+                    if(content == null){
+                        space = item.getMaxStackSize();
+                        break;
 
-                    if(myInventory.getPlayer().getInventory().addItem(item).isEmpty()){
+                    }else if(content.getType() == item.getType()){
+                        space += item.getMaxStackSize()-content.getAmount();
+
+                        if(space >= item.getMaxStackSize()){
+                            break;
+                        }
+                    }
+                }
+
+                if(space >= item.getAmount()){
+                    double money = getPlayersMoney(myInventory.getPlayer().getUniqueId());
+                    double cost = items.getJSONObject(slotPage).getDouble("price");
+
+                    if(money >= cost){
+                        myInventory.getPlayer().getInventory().addItem(item);
                         setPlayersMoney(myInventory.getPlayer().getUniqueId(), money-cost);
 
                         UUID owner = UUID.fromString(items.getJSONObject(slotPage).getString("owner"));

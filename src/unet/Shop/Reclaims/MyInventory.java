@@ -55,7 +55,25 @@ public class MyInventory {
     public void onRemoved(int slot){
         ItemStack item = JsonItemStack.fromJSON(items.getJSONObject(slot));
 
-        if(player.getInventory().addItem(item).isEmpty()){
+        int space = 0;
+        for(int i = 0; i <= 35; i++){
+            ItemStack content = player.getInventory().getItem(i);
+            if(content == null){
+                space = item.getMaxStackSize();
+                break;
+
+            }else if(content.getType() == item.getType()){
+                space += item.getMaxStackSize()-content.getAmount();
+
+                if(space >= item.getMaxStackSize()){
+                    break;
+                }
+            }
+        }
+
+        if(space >= item.getAmount()){
+            player.getInventory().addItem(item);
+
             items.remove(slot);
             inventory.clear();
 

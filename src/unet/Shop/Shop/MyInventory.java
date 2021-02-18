@@ -52,23 +52,41 @@ public class MyInventory {
 
             }else{
                 ItemStack tmp = item.getTradeable();
-                double money = getPlayersMoney(player.getUniqueId());
-                double cost = item.getBuy()*tmp.getMaxStackSize();
 
-                if(money >= cost){
-                    tmp.setAmount(tmp.getMaxStackSize());
+                int space = 0;
+                for(int i = 0; i <= 35; i++){
+                    ItemStack content = player.getInventory().getItem(i);
+                    if(content == null){
+                        space = tmp.getMaxStackSize();
+                        break;
 
-                    if(player.getInventory().addItem(tmp).isEmpty()){
+                    }else if(content.getType() == tmp.getType()){
+                        space += tmp.getMaxStackSize()-content.getAmount();
+
+                        if(space >= tmp.getMaxStackSize()){
+                            break;
+                        }
+                    }
+                }
+
+                if(space > 0){
+                    tmp.setAmount(space);
+
+                    double money = getPlayersMoney(player.getUniqueId());
+                    double cost = item.getBuy()*space;
+
+                    if(money >= cost){
+                        player.getInventory().addItem(tmp);
                         setPlayersMoney(player.getUniqueId(), money-cost);
 
                         DecimalFormat df2 = new DecimalFormat("#,##0.00");
-                        player.sendMessage("§7You have purchased §a"+tmp.getMaxStackSize()+" "+tmp.getType().name()+"§7 your new balance is §a$"+df2.format(money-cost)+"§7.");
+                        player.sendMessage("§7You have purchased §a"+space+" "+tmp.getType().name()+"§7 your new balance is §a$"+df2.format(money-cost)+"§7.");
 
                     }else{
-                        player.sendMessage("§cYour inventory is full, please remove some items before you buy.");
+                        player.sendMessage("§cYou don't have enough money to purchase!");
                     }
                 }else{
-                    player.sendMessage("§cYou don't have enough money to purchase!");
+                    player.sendMessage("§cYour inventory is full, please remove some items before you buy.");
                 }
             }
         }
@@ -83,24 +101,43 @@ public class MyInventory {
                 openInventory(item.getLink(), player);
 
             }else{
-                double money = getPlayersMoney(player.getUniqueId());
-                double cost = item.getBuy();
+                ItemStack tmp = item.getTradeable();
 
-                if(money >= cost){
-                    ItemStack tmp = item.getTradeable();
+                int space = 0;
+                for(int i = 0; i <= 35; i++){
+                    ItemStack content = player.getInventory().getItem(i);
+                    if(content == null){
+                        space = tmp.getMaxStackSize();
+                        break;
+
+                    }else if(content.getType() == tmp.getType()){
+                        space += tmp.getMaxStackSize()-content.getAmount();
+
+                        if(space >= tmp.getMaxStackSize()){
+                            break;
+                        }
+                    }
+                }
+
+                if(space > 0){
                     tmp.setAmount(1);
 
-                    if(player.getInventory().addItem(tmp).isEmpty()){
+                    double money = getPlayersMoney(player.getUniqueId());
+                    double cost = item.getBuy();
+
+                    if(money >= cost){
+                        player.getInventory().addItem(tmp);
                         setPlayersMoney(player.getUniqueId(), money-cost);
 
                         DecimalFormat df2 = new DecimalFormat("#,##0.00");
                         player.sendMessage("§7You have purchased §a1 "+tmp.getType().name()+"§7 your new balance is §a$"+df2.format(money-cost)+"§7.");
 
                     }else{
-                        player.sendMessage("§cYour inventory is full, please remove some items before you buy.");
+                        player.sendMessage("§cYou don't have enough money to purchase!");
                     }
                 }else{
-                    player.sendMessage("§cYou don't have enough money to purchase!");
+                    player.sendMessage("§cYour inventory is full, please remove some items before you buy.");
+
                 }
             }
         }
@@ -117,7 +154,6 @@ public class MyInventory {
             }else{
                 ItemStack tmp = item.getTradeable();
                 tmp.setAmount(1);
-
 
                 if(player.getInventory().containsAtLeast(tmp, 1)){
                     player.getInventory().removeItem(tmp);
